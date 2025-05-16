@@ -6,9 +6,9 @@ using namespace std;
 int romanToInt(string);
 
 int main() {
-	string test[3] = { "III", "LVIII", "MCMXCIV" };
+	string test[4] = { "III", "LVIII", "MCMXCIV", "XIV"};
 
-	for (int i = 0; i < 3; i++) {
+	for (int i = 0; i < 4; i++) {
 		int value = romanToInt(test[i]);
 		cout << "Roman Numeral: " << test[i] << ", value: " << value << endl;
 	}
